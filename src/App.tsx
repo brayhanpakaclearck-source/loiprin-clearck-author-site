@@ -1,5 +1,5 @@
 import "./App.css";
-import auteurPhoto from "./assets/auteur.jpg";
+<img src="/auteur.jpeg" alt="Loïprin CLEARCK" className="author-photo" />
 
 function App() {
   return (
