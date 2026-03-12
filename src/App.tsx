@@ -1,23 +1,30 @@
 import "./App.css";
+import auteurPhoto from "./assets/auteur.jpg";
 
 function App() {
   return (
     <div className="site">
       <header className="hero">
-        <div className="container">
-          <p className="eyebrow">Auteur • Romans • Scénarios • Vision cinématographique</p>
-          <h1>Loïprin CLEARCK</h1>
-          <p className="tagline">
-            Entre roman et cinéma, je construis des histoires faites pour marquer les âmes.
-          </p>
+        <div className="container hero-content">
+          <div className="hero-text">
+            <p className="eyebrow">Auteur • Romans • Scénarios • Vision cinématographique</p>
+            <h1>Loïprin CLEARCK</h1>
+            <p className="tagline">
+              Entre roman et cinéma, je construis des histoires faites pour marquer les âmes.
+            </p>
 
-          <div className="hero-buttons">
-            <a href="#projets" className="btn btn-primary">
-              Découvrir mes projets
-            </a>
-            <a href="#contact" className="btn btn-secondary">
-              Me contacter
-            </a>
+            <div className="hero-buttons">
+              <a href="#projets" className="btn btn-primary">
+                Découvrir mes projets
+              </a>
+              <a href="#contact" className="btn btn-secondary">
+                Me contacter
+              </a>
+            </div>
+          </div>
+
+          <div className="hero-image">
+            <img src={auteurPhoto} alt="Loïprin CLEARCK" className="author-photo" />
           </div>
         </div>
       </header>
