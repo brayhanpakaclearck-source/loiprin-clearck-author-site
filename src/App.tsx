@@ -1,5 +1,4 @@
 import "./App.css";
-<img src="/auteur.jpeg" alt="Loïprin CLEARCK" className="author-photo" />
 
 function App() {
   return (
@@ -24,7 +23,7 @@ function App() {
           </div>
 
           <div className="hero-image">
-            <img src={auteurPhoto} alt="Loïprin CLEARCK" className="author-photo" />
+            <img src="/auteur.jpeg" alt="Loïprin CLEARCK" className="author-photo" />
           </div>
         </div>
       </header>
